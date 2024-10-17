@@ -40,8 +40,9 @@ body{
 
 .contain{
     padding-top: 5px;
+    padding-right: 5px;
     top: 50px;
-    width: 400px;
+    width: 350px;
     height:fit-content;
     position: relative;
     z-index: 1;
@@ -88,6 +89,7 @@ label{
     display: block;
     margin-bottom: 5px;
     font-size: 15px;
+    text-transform: uppercase;
 }
 
 form{
@@ -122,13 +124,16 @@ input:focus{
 }
 
 .AHA {
-    font-size: 12px;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 .tologin{
     text-decoration: none;
     font-style: none;
-    color: #FFF;
+    color: #9632fe;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .tologin:hover{
